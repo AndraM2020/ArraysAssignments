@@ -8,6 +8,7 @@ public class Assignment2 {
         sameValueElements(myArray);
         eachSecondElement(myArray);
         averageValue(myArray);
+
     }
 
     public static void negativeElements(int[] myArray) {
@@ -67,10 +68,9 @@ public class Assignment2 {
         System.out.println("The average value of the array is: " + average);
 
         int smallerThanAverageCount = 0;
-
-        for (int i = 0; i < myArray.length; i++) {
+            for (int i = 0; i < myArray.length; i++) {
             if (myArray[i] < average) {
-                //System.out.println(myArray1[i]);
+                System.out.println(myArray[i]);
                 smallerThanAverageCount++;
             }
         }
